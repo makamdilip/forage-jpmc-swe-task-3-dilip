@@ -1,12 +1,12 @@
 import { ServerRespond } from './DataStreamer';
 
 export interface Row {
-  price_abc: 'float',
-  price_def: 'float',
-  ratio: 'float',
-  upper_bound: 'float',
-  lower_bound: 'float',
-  trigger_alert: 'float',
+  price_abc: number,
+  price_def: number,
+  ratio: number,
+  upper_bound: number,
+  lower_bound: number,
+  trigger_alert: number | undefined,
   timestamp: Date,
 }
 
